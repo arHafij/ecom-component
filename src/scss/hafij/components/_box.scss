@@ -1,0 +1,43 @@
+.c-box--transparent {
+    >.c-box__header {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        border: 1px solid #efefef;
+        box-shadow: $box-shadow-for-box;
+        padding: 10px 10px;
+        .c-box__title{
+            color: $primary;
+            padding: 0;
+            margin: 0;
+        }
+        .c-box__action{
+        }
+    }
+    >.c-box__body {
+        padding: 25px 20px;
+        height: auto;
+    }
+}
+
+.c-box--pills {
+    border: 1px solid #efefef;
+    >.c-box__header {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        border-bottom: 1px solid #efefef;
+        box-shadow: $box-shadow-for-box;
+        padding: 10px 10px;
+        .c-box__title{
+            color: $primary;
+            margin: 0;
+        }
+        .c-box__action{
+        }
+    }
+    >.c-box__body {
+        padding: 25px 20px;
+        height: auto;
+    }
+}

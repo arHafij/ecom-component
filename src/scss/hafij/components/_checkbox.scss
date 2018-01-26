@@ -1,0 +1,19 @@
+.c-checkbox {
+
+}
+
+.c-checkbox--filterable {
+
+	> .c-checkbox__input {
+
+	}
+
+	> .c-checkbox__link {
+		color: #666;
+		margin-left: 12px;
+	}
+	
+	> .c-checkbox__link:hover{
+		text-decoration: none;
+	}
+}

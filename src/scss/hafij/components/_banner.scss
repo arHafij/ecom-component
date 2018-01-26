@@ -1,0 +1,12 @@
+.c-banner {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background-image: $banner-bg-img-color;
+    justify-content:center;
+    align-items:center;
+
+    >.c-banner__description {
+       
+    }
+}
